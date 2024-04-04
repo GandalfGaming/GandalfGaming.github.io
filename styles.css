@@ -16,16 +16,7 @@ margin: center;
   filter: blur(60%);
 }
 
-html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
+body {
     margin: auto;
 }
 
-body {
-    display: table-cell;
-    vertical-align: middle;
-}
