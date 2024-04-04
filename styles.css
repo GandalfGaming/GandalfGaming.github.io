@@ -2,6 +2,10 @@ h1 {
   text-align: center;
 }
 
+.tocenter {
+margin: center;
+}
+
 .font-face {
     font-family: 'CustomFont';
     src: url('ShipporiGochicB2-Bold.ttf') format('truetype');
