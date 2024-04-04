@@ -7,3 +7,7 @@ h1 {
     src: url('ShipporiGochicB2-Bold.ttf') format('truetype');
     /* Voeg andere lettertypevarianten hier toe indien nodig */
 }
+
+.bgblur {
+  filter: blur(60%);
+}
