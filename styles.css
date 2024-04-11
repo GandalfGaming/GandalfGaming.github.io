@@ -13,11 +13,13 @@ margin: auto;
 
 .toleft {
   justify-content: left;
+  align-items: left;
+  margin-right: 800px;
 }
 
 .font-face {
     font-family: 'CustomFont';
-    src: url('ShipporiGochicB2-Bold.ttf') format('truetype');
+    src: url('Files/Fonts/ShipporiGochicB2-Bold.ttf') format('truetype');
     /* Voeg andere lettertypevarianten hier toe indien nodig */
 }
 
