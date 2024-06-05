@@ -1,43 +1,52 @@
-h1 {
-  text-align: center;
-}
-
-a {
-display:block;
-text-align:center;
-}
-
-.tocenter {
-margin: auto;
-}
-
-.toleft {
-  justify-content: left;
-  align-items: left;
-  margin-right: 800px;
-}
-
-.font-face {
-    font-family: 'CustomFont';
-    src: url('Files/Fonts/ShipporiGochicB2-Bold.ttf') format('truetype');
-    /* Voeg andere lettertypevarianten hier toe indien nodig */
-}
-
-.bgblur {
-  filter: blur(60%);
-}
+/* style.css */
 
 body {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
 }
 
-#imageborder {
-  border-radius: 25px;
-  border: 2px solid #CBC3E3;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e0a800;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #444;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
