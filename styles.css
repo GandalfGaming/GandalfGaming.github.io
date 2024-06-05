@@ -1,4 +1,4 @@
-/* style.css */
+/* styles.css */
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -23,6 +23,24 @@ h1 {
     text-shadow: 2px 2px 4px #888;
 }
 
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -34,6 +52,17 @@ h1 {
 
 section {
     margin-bottom: 20px;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 h2 {
@@ -60,10 +89,7 @@ p, li {
 }
 
 img {
-    width: 100%;
-    height: auto;
     border-radius: 8px;
-    margin-bottom: 20px;
     border: 1px solid #ddd;
     transition: transform 0.3s, box-shadow 0.3s;
 }
